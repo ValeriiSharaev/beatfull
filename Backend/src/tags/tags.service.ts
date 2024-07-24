@@ -8,7 +8,7 @@ export class TagsService {
     }
 
     async createTag(createTagDto: CreateTagDto){
-        return this.prisma.tag.create({data: createTagDto});
+        return this.prisma.tag.create({data: createTagDto})
     }
 
     async verifyTag(tagId: number){

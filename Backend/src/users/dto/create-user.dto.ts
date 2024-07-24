@@ -14,5 +14,5 @@ export class CreateUserDto{
     description: string
 
     @ApiProperty({ required: false })
-    avatar: string
+    picture: Picture
 }
